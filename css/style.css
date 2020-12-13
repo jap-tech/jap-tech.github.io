@@ -1,9 +1,3 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1014,9 +1008,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients img {
   max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
+  opacity: 1;
+  transition: 0.5s;
   padding: 15px 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 #clients img:hover {
@@ -1124,6 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   background: #fff;
   padding: 60px 0;
+
 }
 
 #team .member {
